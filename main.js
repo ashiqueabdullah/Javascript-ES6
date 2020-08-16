@@ -1,1 +1,5 @@
-console.log("Ashique Abdullah");
+"use strict"
+test();
+function test(){
+    name="Ashique Abdullah";
+}
