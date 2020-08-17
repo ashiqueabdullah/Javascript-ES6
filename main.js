@@ -1,11 +1,13 @@
 
-//rest parameter 
-test(1,2,3,4,5);
-function test(...recive){
-  let sum=0;
-  for(let i of recive){
+//dynamic function
+var fun=function(n){
+  var sum=0;
+  for(var i=0; i<n; i++){
     sum=sum+i;
   }
-  console.log(sum);
+  return sum;
 }
+console.log(fun(10));
+
+
 
