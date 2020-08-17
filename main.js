@@ -1,26 +1,7 @@
+//for in loop
 
-//object
+var car={spreed:100,color:"red",model:2020};
 
-var car={
-  bmw:{
-    spreed:200,
-    color:"black",
-    model:2020
-  },
-  toyta:{
-    spreed:100,
-    color:"green",
-    model:2021
-  }
-};
-var cars={
-  spreed:200,
-  color:"red"
-};
-
-console.log(car['bmw']['color']);
-console.log(cars['color']);
-
-
-
-
+for (let i in car){
+  console.log(i+"= "+car[i]);
+}
