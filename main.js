@@ -9,5 +9,5 @@ function test(){
 let poorCountry=['Bangladesh','Maldip'];
 let richCountry=['Canada','USA'];
 
-let porrAndRich=[...poorCountry,...richCountry];
-console.log(porrAndRich);
+richCountry.push(poorCountry);
+console.log(richCountry);
