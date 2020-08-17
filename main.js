@@ -1,13 +1,11 @@
-"use strict"
-test();
-function test(){
-  var a="Ashique Abdullah";
-  console.log(a);
+
+//rest parameter 
+test(1,2,3,4,5);
+function test(...recive){
+  let sum=0;
+  for(let i of recive){
+    sum=sum+i;
+  }
+  console.log(sum);
 }
 
-
-let poorCountry=['Bangladesh','Maldip'];
-let richCountry=['Canada','USA'];
-
-richCountry.push(poorCountry);
-console.log(richCountry);
