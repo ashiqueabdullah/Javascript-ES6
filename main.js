@@ -1,9 +1,17 @@
-//static kewyword
+//inheritance
 
 class test{
-  static test2(){
-    console.log("Static kewyword use")
+
+  prr(){
+    console.log("Hello testing")
   }
+
 }
 
-test.test2()
+class test2 extends test{
+
+}
+
+var obj=new test2();
+
+obj.prr()
