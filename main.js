@@ -1,9 +1,8 @@
-//multidimensional Array
+//array de-structuring
 
-var one=[1,2,3]
-var two=[4,5,6]
-var three=[7,8,9]
+var ar=[1,2,3,4,5,6]
 
-var all=[one,two,three]
+var [,,,a]=ar
 
-console.log(all[0])
+console.log(a)
+
