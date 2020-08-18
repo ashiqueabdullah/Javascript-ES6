@@ -1,11 +1,10 @@
-//class
-
+//constructor
 class test{
-  prt(){
-    console.log("Class testing")
+  constructor(){
+    console.log("constructor Testing")
   }
 }
 
 var obj=new test()
 
-obj.prt()
+obj
