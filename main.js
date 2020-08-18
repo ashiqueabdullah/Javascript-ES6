@@ -1,20 +1,19 @@
-//map
+//set
+var st= new Set()
 
-var mp=new Map();
 
+st.add("Names: ")
+st.add("Ashique Abdullah")
 
-mp.set("one","Srilanka");
-mp.set("two","USA");
-mp.set("three","Bangladesh");
+//st.clear()
+//st.delete("Names: ")
+console.log(st)
 
-//mp.delete("one")
-console.log(mp.get("one"))
-for(let item of mp.keys()){
-  console.log(item)
-}
-
-if(mp.has("one")){
-  console.log("OK")
+var st2=new Set([1,2,3,4])
+console.log(st2)
+console.log(st2.size)
+if(st2.has(1)){
+  console.log("yes")
 }else{
-  console.log("NO")
+  console.log("No")
 }
