@@ -9,12 +9,12 @@ class test{
 }
 
 class test2 extends test{
-  prr(){
-    console.log("Hoise")
+  em(){
+    super.prr()
   }
 }
 
 
 var obj=new test2();
 
-obj.prr()
+obj.em()
