@@ -1,10 +1,9 @@
-//constructor
+//static kewyword
+
 class test{
-  constructor(){
-    console.log("constructor Testing")
+  static test2(){
+    console.log("Static kewyword use")
   }
 }
 
-var obj=new test()
-
-obj
+test.test2()
