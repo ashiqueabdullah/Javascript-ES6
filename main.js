@@ -1,8 +1,20 @@
-//array de-structuring
+//map
 
-var ar=[1,2,3,4,5,6]
+var mp=new Map();
 
-var [,,,a]=ar
 
-console.log(a)
+mp.set("one","Srilanka");
+mp.set("two","USA");
+mp.set("three","Bangladesh");
 
+//mp.delete("one")
+console.log(mp.get("one"))
+for(let item of mp.keys()){
+  console.log(item)
+}
+
+if(mp.has("one")){
+  console.log("OK")
+}else{
+  console.log("NO")
+}
